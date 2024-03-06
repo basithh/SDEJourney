@@ -6,8 +6,8 @@ public class BubbleRecursiveSort {
        BubbleRecursiveSort  bubbleRecursiveSort = new BubbleRecursiveSort();
        bubbleRecursiveSort.sort(arr,arr.length);
 
-        for (int i = 0; i < arr.length; i++) {
-            System.out.println(arr[i]);
+        for (int j : arr) {
+            System.out.println(j);
         }
     }
     public void sort(int[] arr ,int n){
